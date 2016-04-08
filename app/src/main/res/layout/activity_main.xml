@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/create_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center" >
+
+
+    <Button
+        style="@style/ButtonText"
+        android:background="@drawable/rectangle_drawable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_trip"
+        android:onClick="startCreateTripActivity"
+        android:id="@+id/create_trip_button"
+        android:layout_margin="20dp"
+
+        />
+
+
+    <Button
+        style="@style/ButtonText"
+        android:background="@drawable/rectangle_drawable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trip_history"
+        android:onClick="startTripHistoryActivity"
+        android:id="@+id/view_trip_button"
+        android:layout_margin="20dp" />
+
+
+
+
+</LinearLayout>
